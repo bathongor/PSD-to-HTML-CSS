@@ -1,0 +1,275 @@
+h4{
+	font-size: 18px;
+}
+	h4 a{
+		color: orange;
+		text-decoration: none;
+	}
+
+h3{
+	font-size: 22px;
+	text-align: center;
+}
+
+h1{
+	font-size: 45px;
+}
+
+p{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+body{
+	font-family: helvetica, arial, sans-serif;
+}
+
+form{
+	width: 55%;
+	margin: auto;
+	border: 1px solid #ccc;
+	padding: 12px 0px 15px 35px;
+}
+
+	form div{
+		margin-top: 20px;
+		padding: 10px 15px 0px 15px;
+	}
+
+	form button{	
+		margin-button: 20px;
+	}
+
+input[type=text], select{
+	width: 85%;
+	padding: 12px 20px 10px 15px;
+
+}
+
+button[type=submit]{
+	width: 85%;
+	margin: 15px 0px 25px 25px;
+	padding: 10px 10px;
+	color: white;
+	font-size: 20px;
+	background-color: orange;
+	background-image: linear-gradient(to right, orange , red);
+	box-shadow: 10px 10px 25px #888888;
+}
+	
+	button[type=submit]:hover{
+		transform: scale(1.05);
+	}
+
+.effect1{
+	border: 0; 
+	padding: 7px 0; 
+	border-bottom: 1px solid #ccc;
+}
+
+	.effect1:focus {	
+		border-bottom: 1px solid orange;
+		transition: 0.4s;
+	}
+
+.center{
+	font-size: 20px;
+	text-align: center;
+}
+
+.squeeze{
+	width: 50%;
+	margin: auto;
+}
+
+.bigBtn{
+	font-size: 15px;
+	padding: 6px 15px;
+	margin-top: 7px;
+}
+
+.flexIt{
+	display: flex;
+	padding: 5px;
+}
+
+.flexLast{
+	display: flex;
+	width: 110px;
+	padding: 5px;
+}
+	.flexLast a{
+		padding-left: 15px;
+	}
+
+.shadowText{
+	text-shadow: -4px 6px 3px #888888;
+}
+
+.backGround{
+	background-image: url("assets/backgroundImage.jpg");
+	background-size: 100% 13%;
+	background-repeat: no-repeat;
+}
+
+.boxText{
+	width: 70%;
+	height: 120px;
+	border-radius: 10px;
+	padding: 5px 80px 35px 80px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 1px 1px 40px #888888; 
+}
+
+.gridWorks {
+	display: grid;
+	grid-template-columns: 33.333% 33.333% 33.333%;
+	grid-gap: 20px;
+}
+
+
+.box{
+	height: 450px;
+	width: 100%;
+	box-shadow: 2px 2px 5px #888888;
+	border-radius: 10px;
+}
+
+	.box:hover { 
+		transform: scale(1.02);
+		box-shadow: 2px 2px 15px #888888; 
+	}
+
+.subBox1{
+    height: 50%;
+}
+
+	.subBox1 a img{
+		width: 100%;
+		height:100%;
+	}
+
+.subBox2{
+    height: 50%;
+    padding-bottom: 35px;
+    padding-left: 15px;		
+    padding-top: -10px;	
+}
+
+	.subBox2 p{
+		width: 280px;
+	}
+
+.button {
+  font: 15px helvetica;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 8px 4px 8px;
+  border-radius: 5px;
+}
+
+.gridClients{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.clients img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+}
+
+	.clients img:hover{
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		box-shadow: 10px 10px 20px #888888;
+		transform: scale(1.05);
+	}
+
+.box11{
+	height: 450px;
+	width: 100%;
+	box-shadow: 2px 2px 5px #888888;
+	border-radius: 10px;
+}
+
+	.box11:hover { 
+		transform: scale(1.02);
+		background-color: orange;
+		background-image: linear-gradient(to right, orange , red);
+		font-family: sans-serif, arial, helvetica;
+		color: white;
+		box-shadow: 2px 2px 15px #888888; 
+	}
+
+.subBox11{
+    height: 65%;
+}
+
+	.subBox11 a img{
+		width: 100%;
+		height:100%;
+	}
+
+
+.subBox12{
+    height: 35%;
+    padding-bottom: 10px;
+    padding-left: 35px;	
+    padding-right: 35px;	
+    padding-top: 15px;	
+}
+
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1080px;
+	position: relative;
+	margin-top: 15px;
+}
+
+	#container #header {
+		display: flex;
+		height: 80px;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: 600px;
+		font-size: 12px;
+		color: white;
+	}
+
+		#container #header #subHeader1 li{
+		    display: block;
+		    padding: 5px;
+		}
+
+		#container #header #subHeader2 li{
+				display: block;
+			    padding: 5px;
+			}
+
+	#container #intro #home{
+		height: 350px;
+		color: white;
+	}
+
+		#container #intro #socialMediaLinks{
+			text-align: left;
+		}
+			#container #intro #socialMediaLinks li{
+				display: inline;
+				padding: 5px 8px;
+				margin-top: 20px;
+			}
+
+		#container #intro #filterBtn{
+			text-align: center;
+		}
+
+			#container #intro #filterBtn li{
+				display: inline;
+				padding-bottom: 35px;
+			}
